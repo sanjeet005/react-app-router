@@ -60,7 +60,7 @@ export class Contact extends React.Component {
 
 ReactDOM.render((
    <BrowserRouter>
-   	 <App>      
+   	 <App>
       <Route path = "/home" component = {Home} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
